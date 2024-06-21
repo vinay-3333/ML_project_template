@@ -3,7 +3,7 @@ from pathlib import Path
 import logging
 
 list_of_files=[
-    ".github/workflows/.gitkeep",
+    ".github/workflows/.gitkeep",     #this file for CI
     "src/__init__.py",
     "src/components/__init__.py",
     "src/components/data_ingestion.py",
@@ -27,7 +27,7 @@ list_of_files=[
     "setup.py",
     "setup.cfg",
     "pyproject.toml",
-    "tox.ini",
+    "tox.ini",       # this file for local testing use different test cases
     "expriment/expriments.ipynb"
 
     
