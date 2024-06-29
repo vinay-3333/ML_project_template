@@ -5,6 +5,16 @@ seaborn
 flask
 mlflow==2.2.2 
 dvc
+streamlit
+matplotlib
+python-box==6.0.2
+pyYAML
+ensure==1.0.2
+joblib
+types-PyYAML
+Flask
+Flask-Cors
+xgboost
 
 
 # dev requirements for test-
@@ -14,4 +24,4 @@ black==22.8
 flake8==5.0.4
 mypy==0.971
 
--e .
+# -e .
