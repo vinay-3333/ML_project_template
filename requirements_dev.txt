@@ -1,6 +1,6 @@
 pandas
 numpy
-scikit-learn
+scikit-learn==1.5.0
 seaborn
 flask
 mlflow==2.2.2 
@@ -15,7 +15,7 @@ types-PyYAML
 Flask
 Flask-Cors
 xgboost
-
+scipy
 
 # dev requirements for test-
 pytest==7.1.3
@@ -24,4 +24,4 @@ black==22.8
 flake8==5.0.4
 mypy==0.971
 
-# -e .
+-e .

@@ -1,0 +1,3 @@
+[2024-07-02 19:03:08,299] 27 root - INFO - Data Ingestion started
+[2024-07-02 19:03:08,403] 30 root - INFO - reading a dataframe
+[2024-07-02 19:03:08,403] 53 root - INFO - not able to read

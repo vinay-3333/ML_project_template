@@ -1,0 +1,26 @@
+[2024-07-03 19:46:19,566] 27 root - INFO - Data Ingestion started
+[2024-07-03 19:46:19,676] 30 root - INFO - reading a dataframe
+[2024-07-03 19:46:20,265] 34 root - INFO - i have saved the raw dataset in artifact folder
+[2024-07-03 19:46:20,265] 36 root - INFO - here i hvae performed train test split
+[2024-07-03 19:46:20,287] 40 root - INFO - train test split completed
+[2024-07-03 19:46:20,868] 46 root - INFO - data ingestion part completed
+[2024-07-03 19:46:21,001] 87 root - INFO - read train and test data complete
+[2024-07-03 19:46:21,003] 88 root - INFO - Train Dataframe Head : 
+       id  carat        cut color clarity  depth  table     x     y     z  price
+0  164456   0.30  Very Good     F     VS2   63.1   56.0  4.27  4.28  2.70    618
+1   55348   1.10    Premium     G     SI1   62.5   58.0  6.60  6.56  4.10   5141
+2  131285   1.01      Ideal     H     VS2   62.0   55.0  6.42  6.43  3.99   5361
+3  138645   1.60      Ideal     H     SI1   61.9   57.0  7.46  7.51  4.64  11104
+4  127150   0.54      Ideal     I     VS1   61.5   57.0  5.22  5.24  3.22   1374
+[2024-07-03 19:46:21,008] 89 root - INFO - Test Dataframe Head : 
+       id  carat        cut color clarity  depth  table     x     y     z  price
+0  168262   0.29  Very Good     D     VS1   61.4   59.0  4.26  4.28  2.62    470
+1   72030   0.70  Very Good     I     SI2   59.8   60.0  5.75  5.84  3.48   2167
+2   15528   0.31      Ideal     D     VS1   60.9   57.0  4.39  4.41  2.68    789
+3   74612   0.72      Ideal     H    VVS2   61.2   57.0  5.78  5.81  3.54   2840
+4   74565   1.02    Premium     D     SI2   62.6   58.0  6.43  6.38  4.01   4665
+[2024-07-03 19:46:21,008] 32 root - INFO - Data Transformation initiated
+[2024-07-03 19:46:21,008] 43 root - INFO - Pipeline Initiated
+[2024-07-03 19:46:21,206] 107 root - INFO - Applying preprocessing object on training and testing datasets.
+[2024-07-03 19:46:21,206] 117 root - INFO - preprocessing pickle file saved
+[2024-07-03 19:46:21,206] 28 root - INFO - Splitting Dependent and Independent variables from train and test data
